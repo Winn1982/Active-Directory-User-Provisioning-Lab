@@ -70,6 +70,27 @@ Step 5: Add User to Security Group
 
 <p align="center"><img width="409" height="537" alt="image" src="https://github.com/user-attachments/assets/eeea03e3-4a0f-49ef-b7fb-c6f0281bb102" />
 
+Step 6: Test Domain Authentication on Windows 10 VM 
+- On Windows 10 VM:
+- Login Using Domain Credentials
+- At login screen:
+- Select Other User → Enter jcarter@mydomain.com and then their password. Received the message that the user's password must be changed before signing in.
+
+<p align="center"><img width="500" height="500" alt="Step 9 User needs to change password before signing in" src="https://github.com/user-attachments/assets/2255921e-49c5-4cae-819d-ad43dc3a3c9a" />
+
+<p align="center"><img width="463" height="191" alt="image" src="https://github.com/user-attachments/assets/f117a966-c3b5-4bb2-abe4-dd07a78baf8f" />
+
+Summary and Outcome
+
+This Active Directory user provisioning lab demonstrated foundational Identity and Access Management concepts within a Windows Server 2022 environment. A structured Organizational Unit was created to simulate enterprise directory organization, a security group was implemented to support role-based access control, and a domain user account was successfully provisioned and authenticated on a Windows 10 client VM.
+
+The lab confirmed proper domain authentication, user profile creation, and security configuration practices commonly used in enterprise IT environments.
+
+
+
+
+
+
 
 
   
