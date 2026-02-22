@@ -41,3 +41,25 @@ Implemented role-based access control model.
 
 <p align="center"><img width="500" height="500" alt="Step 3 Sales Security Group created successfully" src="https://github.com/user-attachments/assets/a25e94db-9214-4a49-82b6-11f85235b56d" />
 
+Step 3: Create New Domain User
+
+Inside Sales_Department OU:Right-click → New → User
+
+Filled in:
+- First Name: John
+- Last Name: Carter
+- User Logon Name: jcarter
+- For the jcarter's password it was set to something simple for lab purposes, but normally it would be a strong temporary password that the user would change on next logon. 
+
+<p align="center"><img width="434" height="375" alt="image" src="https://github.com/user-attachments/assets/79188716-495c-4317-871b-bdc5b5cb4c5f"/>
+
+<p align="center"><img width="432" height="373" alt="image" src="https://github.com/user-attachments/assets/c314b857-b4b9-4806-9172-b3587001c313" />
+
+<p align="center"><img width="437" height="375" alt="image" src="https://github.com/user-attachments/assets/f213f26b-6982-4f6b-98da-9999627fff4d" />
+
+
+
+  
+
+
+
