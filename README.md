@@ -64,6 +64,7 @@ Step 5: Add User to Security Group
 - Right-click user → Properties
 - Click Member Of tab
 - Click Add → Sales_Security_Group
+- Click OK → Apply → Close
 
 <p align="center"><img width="461" height="254" alt="image" src="https://github.com/user-attachments/assets/be673f1a-f58d-4813-a71f-4279524aca8e" />
 
