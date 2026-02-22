@@ -1,3 +1,6 @@
+<p align="center"><img width="306" height="180" alt="image" src="https://github.com/user-attachments/assets/c48f445a-fc13-4df8-a1f0-c5af0863f746" />
+
+
 # Active-Directory-User-Provisioning-Lab
 
 ## Objective
@@ -56,6 +59,22 @@ Filled in:
 <p align="center"><img width="432" height="373" alt="image" src="https://github.com/user-attachments/assets/c314b857-b4b9-4806-9172-b3587001c313" />
 
 <p align="center"><img width="437" height="375" alt="image" src="https://github.com/user-attachments/assets/f213f26b-6982-4f6b-98da-9999627fff4d" />
+
+Step 5: Add User to Security Group
+- Right-click user → Properties
+- Click Member Of tab
+- Click Add → Sales_Security_Group
+
+<p align="center"><img width="461" height="254" alt="image" src="https://github.com/user-attachments/assets/be673f1a-f58d-4813-a71f-4279524aca8e" />
+
+<p align="center"><img width="409" height="537" alt="image" src="https://github.com/user-attachments/assets/eeea03e3-4a0f-49ef-b7fb-c6f0281bb102" />
+
+
+
+  
+
+  
+
 
 
 
