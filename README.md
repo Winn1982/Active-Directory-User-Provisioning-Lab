@@ -23,14 +23,14 @@ To simulate an enterprise user onboarding process within a Windows Server 2022 A
 - Validation of profile creation and access
 
 ## Steps Performed
-1. Created Organizational Unit
+## Step 1: Created Organizational Unit
 
 - Created OU: Sales_Department
 - Created the Sales_Department OU to prepare for department-based user and policy management.
 
   <p align="center"><img width="500" height="500" alt="Step 1-Created new OU Sales Department" src="https://github.com/user-attachments/assets/21562229-0b66-4f96-b745-ecb739b83413" />
 
- 2. Created Department Security Group
+## Step 2: Created Department Security Group
 
 - Group Name: Sales_Security_Group
 - Group Scope: Global
@@ -44,7 +44,7 @@ Implemented role-based access control model.
 
 <p align="center"><img width="500" height="500" alt="Step 3 Sales Security Group created successfully" src="https://github.com/user-attachments/assets/a25e94db-9214-4a49-82b6-11f85235b56d" />
 
-Step 3: Create New Domain User
+## Step 3: Create New Domain User
 
 Inside Sales_Department OU:Right-click → New → User
 
@@ -60,7 +60,7 @@ Filled in:
 
 <p align="center"><img width="437" height="375" alt="image" src="https://github.com/user-attachments/assets/f213f26b-6982-4f6b-98da-9999627fff4d" />
 
-Step 5: Add User to Security Group
+## Step 4: Add User to Security Group
 - Right-click user → Properties
 - Click Member Of tab
 - Click Add → Sales_Security_Group
@@ -70,7 +70,7 @@ Step 5: Add User to Security Group
 
 <p align="center"><img width="409" height="537" alt="image" src="https://github.com/user-attachments/assets/eeea03e3-4a0f-49ef-b7fb-c6f0281bb102" />
 
-Step 6: Test Domain Authentication on Windows 10 VM 
+## Step 5: Test Domain Authentication on Windows 10 VM 
 - On Windows 10 VM:
 - Login Using Domain Credentials
 - At login screen:
@@ -80,11 +80,11 @@ Step 6: Test Domain Authentication on Windows 10 VM
 
 <p align="center"><img width="463" height="191" alt="image" src="https://github.com/user-attachments/assets/f117a966-c3b5-4bb2-abe4-dd07a78baf8f" />
 
-Summary and Outcome
+## Summary and Outcome
 
-This Active Directory user provisioning lab demonstrated foundational Identity and Access Management concepts within a Windows Server 2022 environment. A structured Organizational Unit was created to simulate enterprise directory organization, a security group was implemented to support role-based access control, and a domain user account was successfully provisioned and authenticated on a Windows 10 client VM.
+This project demonstrated practical implementation of Active Directory identity management by provisioning domain user accounts, organizing directory objects using Organizational Units, and validating authentication within a Windows Server 2022 lab environment.
 
-The lab confirmed proper domain authentication, user profile creation, and security configuration practices commonly used in enterprise IT environments.
+The exercise strengthened troubleshooting methodology, security awareness, and foundational system administration skills relevant to enterprise IT support environments.
 
 
 
